@@ -1,12 +1,12 @@
-  ##Dockerfile (CentOS 6) to install the following in a Docker continer:
-  ##Python 2.7
-  ##MongoDB - any version
-  ##Apache tomcat 7 - running on port 8080
-  ##run the Dockerfile such that once the container boots, apache tomcat's home page is accessible from the host on port 7080.
+  - Dockerfile (CentOS 6) to install the following in a Docker continer:
+  - Python 2.7
+  - MongoDB - any version
+  - Apache tomcat 7 - running on port 8080
+  - run the Dockerfile such that once the container boots, apache tomcat's home page is accessible from the host on port 7080.
 
-Prerequisites : Make sure that you have docker installed on your machine
+##Note: Make sure that you have docker installed on your machine
 
-Clone the Dockerfile on to your machine where you have docker installed.
+Run Dockerfile on to your machine where you have docker installed.
 
 #this command will build the image with name of centos-tomcat7/avani
 

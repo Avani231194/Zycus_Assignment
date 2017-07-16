@@ -10,18 +10,17 @@ Run Dockerfile on to your machine where you have docker installed.
 
 #this command will build the image with name of centos-tomcat7/avani
 
--------- RUN : docker build -t centos-tomcat7/avani  
+- RUN : docker build -t centos-tomcat7/avani  
 
-After the installation will be completed run the container
+After the image is build , run the container
 
-
---------  RUN : docker run -itd -p 7080:8080 centos-tomcat7/avani
+- RUN : docker run -itd -p 7080:8080 centos-tomcat7/avani
 
 Once we run these commands we can access tomcat7's home by going to ip:7000
 
 Also, we can execute the container and check the version of mongodb and python
 
--------   RUN : docker exec -it ID_OF_DOCKERCONTAINER /bin/bash
+- RUN : docker exec -it ID_OF_DOCKERCONTAINER /bin/bash
 
 To check version :
 

@@ -21,7 +21,7 @@ Once we run these commands we can access tomcat7's home by going to ip:7000
 
 Also, we can execute the container and check the version of mongodb and python
 
--------   RUN : docker run -itd -p 7080:8080 centos-tomcat7/avani
+-------   RUN : docker exec -it ID_OF_DOCKERCONTAINER /bin/bash
 
 To check version :
 

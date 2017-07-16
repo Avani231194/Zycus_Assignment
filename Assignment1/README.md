@@ -12,7 +12,7 @@ Run Dockerfile on to your machine where you have docker installed.
 
 - RUN : docker build -t centos-tomcat7/avani  
 
-After the image is build , run the container
+After the image is built , run the container
 
 - RUN : docker run -itd -p 7080:8080 centos-tomcat7/avani
 

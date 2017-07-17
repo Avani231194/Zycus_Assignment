@@ -1,4 +1,4 @@
-#!/bin/bash  #Shebang 
+#!/bin/bash  
 hostname=$@  #This will take the ip addresses as an input from the user
 username=root  #username is root, this can be anything
 

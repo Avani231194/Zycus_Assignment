@@ -4,7 +4,7 @@
 
 # change the permission of the script and make it executable
   - chmod 777 script.sh
-# Now run the script along with the arguments (assuming the 2 hostname be: hos1 and host2)
+# Now run the script along with the arguments (assuming the 2 hostname be: host1 and host2)
   - ./script.sh host1,host2
 
  Note :
